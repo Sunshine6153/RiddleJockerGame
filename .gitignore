@@ -1,10 +1,17 @@
+# Python 缓存文件
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-env/
+
+# 虚拟环境
 venv/
+env/
+
+# IDE 文件
 .idea/
 .vscode/
+
+# 系统文件
 .DS_Store
-*.db
+Thumbs.db
