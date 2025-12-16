@@ -37,7 +37,8 @@ python login.py
 ```
 ### ⚠️ 跨平台兼容性警告 (Compatibility Warning)
 
-本项目在 **macOS** 环境下开发完成。如果您尝试在 **Windows** 环境下运行，可能会遇到**文件路径错误**问题，因为 macOS/Linux 使用斜杠 `/` 作为路径分隔符，而 Windows 使用反斜杠 `\`。
+本项目在 **macOS** 环境下开发完成。如果您尝试在 **Windows** 环境下运行，可能会遇到**文件路径错误**问题(主要出现在读取图片文件的时候），
+因为 macOS/Linux 使用斜杠 `/` 作为路径分隔符，而 Windows 使用反斜杠 `\`。
 
 **建议的解决方案：** 
 在 Python 代码中处理文件路径时，请始终使用 [`os.path.join()`](https://docs.python.org/zh-cn/3/library/os.path.html) 函数，
